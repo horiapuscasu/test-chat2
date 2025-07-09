@@ -801,6 +801,8 @@ function UploadData(url, datapack, boundary) {
 		//sendMessage('private_msg',);
 		
 		var message =  '<a class="fileel" onclick="pulldata(this.id, this,\''+document.getElementById('fileupload_password').value+'\');" id="'+fileupload.files[0].name+'" download="'+fileupload.files[0].name+'">'+''+fileupload.files[0].name+'</a>';
+							localChannel = typeof localChannel==='undefined'?0:localChannel;
+							remoteChannel = typeof remoteChannel==='undefined'?0:remoteChannel;
 							var channel = localChannel || remoteChannel;
 							// Send message. The other client will receive this message in 'onmessage' function from channel
 							console.log('Mesjul :'+message);
@@ -944,8 +946,8 @@ var sendButton = document.getElementById('message-button');
 sendButton.addEventListener('click', () => {
 	// GET message from input
 	var message = document.getElementById('public-text').value;
-	
-	var channel = localChannel || remoteChannel;
+	localChannel = typeof localChannel==='undefined'?0:localChannel;
+	remoteChannel = typeof remoteChannel==='undefined'?0:remoteChannel;
 	// Send message. The other client will receive this message in 'onmessage' function from channel
 	console.log('Mesjul :'+message);
 	var text = utf8.encode(punycode.ToASCII(message));
@@ -1011,6 +1013,8 @@ setInterval(function(){
 						case 'public-text':
 							// GET message from input
 							var message =  document.getElementById('public-text').value;
+							localChannel = typeof localChannel==='undefined'?0:localChannel;
+							remoteChannel = typeof remoteChannel==='undefined'?0:remoteChannel;
 							var channel = localChannel || remoteChannel;
 							// Send message. The other client will receive this message in 'onmessage' function from channel
 							console.log('Mesjul :'+message);
