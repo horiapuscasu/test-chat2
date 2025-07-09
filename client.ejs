@@ -719,7 +719,7 @@ function setup_local_media(callback, errorback) {
 	}).then(function(stream) { /* user accepted access to a/v */
 		console.log("Access granted to audio/video");
 		local_media_stream = stream;
-		var local_media = USE_VIDEO ? $("<video>") : $("<audio>");
+		var local_media = true ? $("<video>") : $("<audio>");//USE_VIDEO ? $("<video>") : $("<audio>");
 		local_media.attr("autoplay", "autoplay");
 		local_media.attr("muted", "true"); /* always mute ourselves by default */
 		local_media.attr("controls", "");
@@ -1081,7 +1081,6 @@ document.getElementById('public-text').addEventListener('drop', (e) => {
 	upload();
 	e.preventDefault();
 });
-
 
 </script>
     </body>
