@@ -80,14 +80,14 @@
         box-sizing: border-box;
         color: #2f3235;
       }
-      h1, h2, h3, h4 {
+      h1, h2, h3, font {
         margin: 0;
 		font-family: "Andale Mono", monospace;
       }
       h1, h2, h3 {
         color: #4a5156;
       }
-      h4 {
+      font {
         color: #2f3235;
       }
       a {
@@ -216,10 +216,10 @@
     </head>
     <body>
 	 <div>
-        <h4>Password</h4>
+        <font>Password</font>
         <input type="password" id="pass" />
 		<select id="room">
-		<h4>Room</h4>
+		<font>Room</font>
 		<% if (results) { 
 			for ( var i = 0; i < results.length; i++ ){
 
@@ -234,7 +234,7 @@
 	</div>
 	<div class="hide hide1">
 	<div class="hide hide1">
-      <h4>User</h4>
+      <font>User</font>
       <input type="text" id="name-text" />
 	  <div>
 	  <textarea id="public-text" maxlength="1850" placeholder='the message or drag and drop file to upload'></textarea>
@@ -242,7 +242,7 @@
 	  <button id="message-button">send</button>
 	  <div class="hide hide1">
 		<input id="fileupload" type="file" name="fileupload" style="display:none;"/>
-		<br/><h4>Password(key for file)</h4><input id="fileupload_password" type="password"/>
+		<br/><font>Password(key for file)</font><input id="fileupload_password" type="password"/>
 		<p id="status"></p>
 		<progress id="upload-progress" style="display:none;"></progress>
       </div>
@@ -257,7 +257,7 @@
   </div>
    <script>
    $('button').addClass('btn1');
-   $('input[type=text],input[type=password]').addClass('txt1');
+   $('input[type=text],input[type=password],select').addClass('txt1');
    function randomIntFromInterval(min, max) { // min and max included 
 	return Math.floor(Math.random() * (max - min + 1) + min);
 }
