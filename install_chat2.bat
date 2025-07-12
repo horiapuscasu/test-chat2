@@ -11,6 +11,9 @@ SCHTASKS /CREATE /SC HOURLY /TN "MyTasks\Restart chat2" /TR "C:\bat\start_chat2.
 mkdir %AppData%\npm\files
 xcopy /y "ssl" %AppData%\npm
 xcopy /ievy "%~dp0\ssl" %AppData%\npm\ssl
+xcopy /ievy "%~dp0\nginx" c:\nginx
+copy "%~dp0\start-nginx.vbs.lnk" "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
+SCHTASKS /CREATE /SC HOURLY /TN "MyTasks\Restart-nginx" /TR "C:\bat\start-nginx.vbs" /RL HIGHEST
 xcopy /y "*.js" "%AppData%\npm\*"
 xcopy /y "*.html" "%AppData%\npm\*"
 xcopy /y "*.css" "%AppData%\npm\*"
