@@ -9,5 +9,5 @@ set /p MyIP=<%temp%\test2.txt
 del %temp%\test2.txt
 set MyIP=%MyIP:~10%
 :: start firefox https://%MyIP%/index_chat.php
-explorer "https://%MyIP%:8081/"
+explorer "https://%MyIP%:443/"
 
