@@ -3,6 +3,8 @@ cd /d "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) &&
 del "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\start_chat2.vbs.lnk"
 del "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\start-nginx.vbs.lnk"
 SCHTASKS /DELETE /TN "MyTasks\Restart chat2"
+SCHTASKS /DELETE /TN "MyTasks\Restart-nginx"
+
 
 
 
