@@ -6,6 +6,8 @@ Based on https://github.com/anoek/webrtc-group-chat-example chat room,filetransf
 I added nginx for windows protection anti ddos attacks more lightweight.
 Delete package.json and package-lock.json in kit before installing.
 
+.bat comment is  ::
+
 You can try with pass1 file in directory "c:\apache\bin\htdigest pass1 / admin" for the authorization digest or use htdigest.exe in kit
 
 For an service called for this case memcached to restart on failure : SC failure memcached reset= 0 actions= restart/0/restart/0/restart/0
