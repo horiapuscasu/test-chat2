@@ -1,7 +1,7 @@
 Dim oShell
 Set oShell = WScript.CreateObject("WScript.Shell")
 'oShell.Run "taskkill /f /im node.exe", , True
-oShell.Run "powershell -windowstyle hidden -executionpolicy bypass -File C:\bat\kill-port.ps1 8081", , True
+oShell.Run "cmd.exe /k ""wmic process where name='node.exe' delete"" && exit", , True
 set oShellEnv = oShell.Environment("Process")
 computerName  = oShellEnv("AppData")
 oShell.CurrentDirectory = computerName & "\npm\"
