@@ -169,7 +169,7 @@ process.on('uncaughtException', function (err)
 		},
 		transports: ['websocket'],
 		allowEIO3: true,
-		perMessageDeflate: {
+		/*perMessageDeflate: {
 			zlibDeflateOptions: {
 				// See zlib defaults.
 				chunkSize: 1024,
@@ -187,7 +187,7 @@ process.on('uncaughtException', function (err)
 			concurrencyLimit: 10, // Limits zlib concurrency for perf.
 			threshold: 1024 // Size (in bytes) below which messages
 			// should not be compressed if context takeover is disabled.
-		}, 
+		},*/ 
 	});
 	//io.set('log level', 2);
 	
