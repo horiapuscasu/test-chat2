@@ -2,7 +2,7 @@ Nodejs application for Windows
 
 You can try Password Generator.html in password-tools-master in kit.https://github.com/sensepost/password-tools/tree/master
 
-Based on https://github.com/anoek/webrtc-group-chat-example chat room,filetransfer,emoji,text chat and video chat the chat rooms from passwords.json in pass1 digest passwords https://websistent.com/tools/htdigest-generator-tool/ realm / module socket.io of node https://localhost see in instruction
+Based on https://github.com/anoek/webrtc-group-chat-example chat room,filetransfer,emoji,text chat and video chat(offering your webcam to the others) the chat rooms from passwords.json in pass1 digest passwords https://websistent.com/tools/htdigest-generator-tool/ realm / module socket.io of node https://localhost see in instruction
 I added nginx for windows protection anti ddos attacks more lightweight.
 Delete package.json and package-lock.json in kit before installing.
 
