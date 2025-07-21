@@ -1,6 +1,6 @@
 Nodejs application for Windows
 
-to communicate even on linux where not having that many communicators a communicator in page(in browser) with the skype account https : // teams . live . com/v2` and search at github . com my name see now green button <Code>->Download zip or install git on local and from command prompt git clone 
+to communicate even on linux where not having that many communicators a communicator in page(in browser) with the skype account https : // teams . live . com/v2` and search at github . com my name see now green button <Code>-> Download zip or install git on local and from command prompt git clone 
 
 You can try Password Generator.html in password-tools-master in kit.https://github.com/sensepost/password-tools/tree/master
 
