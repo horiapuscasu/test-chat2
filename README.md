@@ -4,7 +4,7 @@ You can try Password Generator.html in password-tools-master in kit.https://gith
 
 For socket.io module might be possible ~ 200 connections(for ws module of nodejs possible ~450)
 
-Based( on text chat and file transfer added by me) https://github.com/anoek/webrtc-group-chat-example chat room,filetransfer,emoji,text chat and video chat(offering your webcam to the others) the chat rooms from passwords.json in pass1 digest passwords https://websistent.com/tools/htdigest-generator-tool/ realm / module socket.io of node https://localhost see in instruction
+Based on (the text chat and file transfer added by me) https://github.com/anoek/webrtc-group-chat-example chat room,filetransfer,emoji,text chat and video chat(offering your webcam to the others) the chat rooms from passwords.json in pass1 digest passwords https://websistent.com/tools/htdigest-generator-tool/ realm / module socket.io of node https://localhost see in instruction
 I added nginx for windows protection anti ddos attacks more lightweight.
 Delete package.json and package-lock.json in kit before installing.
 the Enter key to set something or to send the message trimming on 1850 characters including on paste.
