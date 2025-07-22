@@ -4,6 +4,8 @@ to communicate even on linux where not having that many communicators a communic
 
 You can try Password Generator.html in password-tools-master in kit.https://github.com/sensepost/password-tools/tree/master
 
+passwords for chat rooms being in passwords.json file and being "a"(1st chat room) and "b"(2nd chat room) which arrives in node directory
+
 For socket.io module might be possible ~ 200 connections(for ws module of nodejs possible ~450)
 
 Based on (the text chat and file transfer added by me) https://github.com/anoek/webrtc-group-chat-example chat room,filetransfer,emoji,text chat and video chat(offering your webcam to the others) the chat rooms from passwords.json in pass1 digest passwords https://websistent.com/tools/htdigest-generator-tool/ realm / module socket.io of node https://localhost see in instruction
