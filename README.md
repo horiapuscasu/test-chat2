@@ -6,6 +6,8 @@ You can try Password Generator.html in password-tools-master in kit.https://gith
 
 The initial for authorization digest admin with a
 
+This way nginx configured for https://localhost for this and https://localhost:8080 for https://github.com/horiapuscasu/text-chat
+
 passwords for chat rooms being in passwords.json file and being "a"(1st chat room) and "b"(2nd chat room) which arrives in node directory
 
 For socket.io module might be possible ~ 200 connections(for ws module of nodejs possible ~450)
