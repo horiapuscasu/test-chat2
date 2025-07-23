@@ -4,6 +4,8 @@ to communicate even on linux where not having that many communicators a communic
 
 You can try Password Generator.html in password-tools-master in kit.https://github.com/sensepost/password-tools/tree/master
 
+The initial for authorization digest admin with a
+
 passwords for chat rooms being in passwords.json file and being "a"(1st chat room) and "b"(2nd chat room) which arrives in node directory
 
 For socket.io module might be possible ~ 200 connections(for ws module of nodejs possible ~450)
