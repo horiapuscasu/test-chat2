@@ -2,7 +2,7 @@ Nodejs application for Windows
 
 to communicate even on linux where not having that many communicators a communicator in page(in browser) with the skype account https : // teams . live . com/v2` and search at github . com my name see now green button <Code>-> Download zip or install git on local and from command prompt : git clone https://github.com/horiapuscasu/video-chat.git
 
- This limit_req_zone $binary_remote_addr zone=req_limit:10m rate=5r/s; in c:\nginx\conf\nginx.conf banned for 10 min for 5 requests a second from the same IP
+ This should mean limit_req_zone $binary_remote_addr zone=req_limit:10m rate=5r/s; in c:\nginx\conf\nginx.conf banned for 10 min for more than 5 requests a second from the same IP
  
 You can try Password Generator.html in password-tools-master in kit.https://github.com/sensepost/password-tools/tree/master
 
