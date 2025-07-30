@@ -34,3 +34,5 @@ To test on retry on refreshing the videos kill with tcpview the server and start
 I'm not registered to offer a license for warranty on any existing even licenses like MIT which no liability
 
 Not usable for mobile browser  for those some other javascript.
+
+The chat has no resources from the internet can work isolated on a LAN
