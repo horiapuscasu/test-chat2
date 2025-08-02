@@ -3,7 +3,7 @@ Nodejs application for Windows
 to communicate even on linux where not having that many communicators a communicator in page(in browser) with the skype account https : // teams . live . com/v2` and search at github . com my name see now green button <Code>-> Download zip or install git on local and from command prompt : git clone https://github.com/horiapuscasu/video-chat.git
 
 
-Security is by certificate the stream not encrypted but this way secured the text messages and the file transfer(the file save encrypted you loose the conversation you loose the password and loose the file) by AES encryptiuon
+Security is by certificate the stream not encrypted but this way secured the text messages and the file transfer(the file save encrypted you loose the conversation you loose the password and loose the file-text with a .txt file) by AES encryptiuon
 
 File transfer 18.5 MB of file
 
