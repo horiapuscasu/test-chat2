@@ -257,7 +257,7 @@
   
   </div>
    <script>
-   setInterval(function(){$('#nu').html(Object.keys(peers).length+' users connected.');},1000);
+   setInterval(function(){$('#nu').html((Object.keys(peers).length+1)+' users connected.');},1000);
    $('button').addClass('btn1');
    $('input[type=text],input[type=password],select').addClass('txt1');
    function randomIntFromInterval(min, max) { // min and max included 
