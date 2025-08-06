@@ -5,7 +5,7 @@ to communicate even on linux where not having that many communicators a communic
 
 Security is by certificate the stream not encrypted but this way secured the text messages and the file transfer(the file save encrypted you loose the conversation you loose the password and loose the file-text with a .txt file) by AES encryptiuon
 
-That on how many users connected is a bit faulty on how many videos send a text message to see if ok the message sent to server and returns-enough to test
+That on how many users connected is a bit faulty on how many videos send a text message to see if ok the message sent to server and returns broadcast-enough to test
 
 File transfer 18.5 MB of file
 
