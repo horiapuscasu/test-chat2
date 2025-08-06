@@ -500,7 +500,7 @@ function init() {
 			return;
 		}
 		var peer_connection = new RTCPeerConnection({
-				"iceServers": ICE_SERVERS
+				"iceServers": []//ICE_SERVERS
 			}, {
 				"optional": [{
 					"DtlsSrtpKeyAgreement": true
