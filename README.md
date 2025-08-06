@@ -5,6 +5,8 @@ to communicate even on linux where not having that many communicators a communic
 
 Security is by certificate the stream not encrypted but this way secured the text messages and the file transfer(the file save encrypted you loose the conversation you loose the password and loose the file-text with a .txt file) by AES encryptiuon
 
+That on how many users connected is a bit faulty on how many videos send a text message to see if ok
+
 File transfer 18.5 MB of file
 
  This should mean limit_req_zone $binary_remote_addr zone=req_limit:10m rate=5r/s; in c:\nginx\conf\nginx.conf banned for 10 min for more than 5 requests a second from the same IP
