@@ -80,7 +80,7 @@
         box-sizing: border-box;
         color: #2f3235;
       }
-      h1, h2, h3, font {
+      h1, h2, h3, font,text {
         margin: 0;
 		font-family: "Andale Mono", monospace;
       }
@@ -230,6 +230,7 @@
 		<button id="login-button">login</button>
       </div>
 	<div id="videos" class="hide hide1">
+		<text id="nu"></text>
 		<button id="mute-button">mute all</button><br/>
 	</div>
 	<div class="hide hide1">
@@ -256,6 +257,7 @@
   
   </div>
    <script>
+   setInterval(function(){$('#nu').html($('video').length+' users connected.');},1000);
    $('button').addClass('btn1');
    $('input[type=text],input[type=password],select').addClass('txt1');
    function randomIntFromInterval(min, max) { // min and max included 
