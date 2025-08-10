@@ -2,6 +2,8 @@ Nodejs application for Windows
 
 to communicate even on linux where not having that many communicators a communicator in page(in browser) with the skype account https : // teams . live . com/v2` and search at github . com my name see now green button <Code>-> Download zip or install git on local and from command prompt : git clone https://github.com/horiapuscasu/video-chat.git
 
+When no button Enter after
+
 In Edge try for video on https://lan_IP not for https://localhost
 <img src="https://github.com/horiapuscasu/video-chat/blob/main/Screenshot%202025-08-10%20062751.png" width="500" height="600">
 
