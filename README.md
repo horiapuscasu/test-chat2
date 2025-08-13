@@ -4,6 +4,8 @@ to communicate even on linux where not having that many communicators a communic
 
 When no button Enter after the messages even on Enter
 
+Listening even on IPV6
+
 cscript replace_text.vbs "%AppData%\npm\node_modules\php-fpm\index.js" "HTTP_AUTHORIZATION: req.headers['authorization']," ""
 
 findstr is the equivalent of grep in windows
