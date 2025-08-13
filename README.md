@@ -4,6 +4,8 @@ to communicate even on linux where not having that many communicators a communic
 
 When no button Enter after the messages even on Enter
 
+cscript replace_text.vbs "%AppData%\npm\node_modules\php-fpm\index.js" "HTTP_AUTHORIZATION: req.headers['authorization']," ""
+
 In Edge try for video on https://lan_IP not for https://localhost
 <img src="https://github.com/horiapuscasu/video-chat/blob/main/Screenshot%202025-08-10%20062751.png" width="500" height="600">
 
