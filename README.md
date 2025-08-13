@@ -2,6 +2,8 @@ Nodejs application for Windows- for this you  need installed only Nodejs no extr
 
 to communicate even on linux where not having that many communicators a communicator in page(in browser) with the skype account https : // teams . live . com/v2` and search at github . com my name see now green button <Code>-> Download zip or install git on local and from command prompt : git clone https://github.com/horiapuscasu/video-chat.git
 
+now the chats listening IPV6  and redirecting from http to https c:\nginx\conf\nginx.conf and c:\bat\start-nginx.vbs to run(on .bat and .vbs double click to execute) your IPv6 from www . . whatismyip . com
+
 When no button Enter after the messages even on Enter
 
 Listening even on IPV6
