@@ -2,6 +2,8 @@ Nodejs application for Windows- for this you  need installed only Nodejs no extr
 
 Use notepad++ to edit everything because useful
 
+https://www.facebook.com/horiapuscasu.58
+
 to communicate even on linux where not having that many communicators a communicator in page(in browser) with the skype account https : // teams . live . com/v2` and search at github . com my name see now green button <Code>-> Download zip or install git on local and from command prompt : git clone https://github.com/horiapuscasu/video-chat.git
 
 c:\bat\start-nginx.vbs and c:\bat\start_chat2.vbs to restart the chat.
