@@ -12,8 +12,6 @@ window.scrollTo({
 });
 and enable for your tab
 
-and install(existing even some other addons for some other browsers which maybe working better for you) https://addons.mozilla.org/en-US/firefox/addon/tab-auto-refresh and stay tuned for more <img src="https://github.com/horiapuscasu/video-chat/blob/main/Screenshot%202025-08-19%20021539.png" height="800" width="1000"> <img src="https://github.com/horiapuscasu/video-chat/blob/main/Screenshot%202025-08-19%20024151.png" height="800" width="1000"> 1,2,3 steps might need to block and the close and open the browser
-
 to communicate even on linux where not having that many communicators a communicator in page(in browser) with the skype account https : // teams . live . com/v2` and search at github . com my name see now green button <Code>-> Download zip or install git on local and from command prompt : git clone https://github.com/horiapuscasu/video-chat.git
 
 c:\bat\start-nginx.vbs and c:\bat\start_chat2.vbs to restart the chat.
