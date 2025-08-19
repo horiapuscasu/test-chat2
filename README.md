@@ -1,4 +1,4 @@
-Nodejs application for Windows- for this you  need installed only Nodejs no extra-typica(only Next button like always)
+Nodejs application for Windows- for this you  need installed only Nodejs no extra-typica(only Next button like always) 
 
 Use notepad++ to edit everything because useful
 
