@@ -10,7 +10,7 @@ window.scrollTo({
   left: 0,
   behavior: "smooth",
 });
-and enable for your tab
+and enable for your tab and refresh
 
 to communicate even on linux where not having that many communicators a communicator in page(in browser) with the skype account https : // teams . live . com/v2` and search at github . com my name see now green button <Code>-> Download zip or install git on local and from command prompt : git clone https://github.com/horiapuscasu/video-chat.git
 
