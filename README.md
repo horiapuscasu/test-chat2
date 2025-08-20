@@ -6,7 +6,7 @@ Use notepad++ to edit everything because useful
 https://www.facebook.com/horia.puscasu.58/ 
 
 
-to refresh a facebook account to first port in loop-install greasemonkey addon for firefox https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ New user script and put there <img src="https://github.com/horiapuscasu/video-chat/blob/main/Untitled.png" width="800" height="1000">:
+to refresh a facebook account to the first post in loop-install greasemonkey addon for firefox https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ New user script and put there <img src="https://github.com/horiapuscasu/video-chat/blob/main/Untitled.png" width="800" height="1000">:
 
 
 setTimeout(function(){window.location.reload();},10000);
