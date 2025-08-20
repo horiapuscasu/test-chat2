@@ -2,6 +2,33 @@ Nodejs application for Windows- for this you  need installed only Nodejs no extr
 
 Use notepad++ to edit everything because useful
 
+
+https://www.facebook.com/horia.puscasu.58/ 
+
+
+install greasemonkey addon https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ New user script and put there <img src="https://github.com/horiapuscasu/video-chat/blob/main/Untitled.png" width="800" height="1000">:
+
+
+setTimeout(function(){window.location.reload();},10000);
+
+
+window.scrollTo({
+
+
+  top: 700,
+
+
+  left: 0,
+
+
+  behavior: "smooth",
+
+
+});
+
+
+and enable for your tab and refresh
+
 to communicate even on linux where not having that many communicators a communicator in page(in browser) with the skype account https : // teams . live . com/v2` and search at github . com my name see now green button <Code>-> Download zip or install git on local and from command prompt : git clone https://github.com/horiapuscasu/video-chat.git
 
 c:\bat\start-nginx.vbs and c:\bat\start_chat2.vbs to restart the chat.
