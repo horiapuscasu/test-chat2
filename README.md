@@ -3,10 +3,9 @@ Nodejs application for Windows- for this you  need installed only Nodejs no extr
 Use notepad++ to edit everything because useful
 
 
-https://www.facebook.com/horia.puscasu.58/ 
 
 
-to refresh a facebook account to the first post in loop every 10 sec.-install greasemonkey addon for firefox https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ New user script and put there <img src="https://github.com/horiapuscasu/video-chat/blob/main/Untitled.png" width="800" height="1000">:
+to refresh a facebook account to the first post in loop every 10 sec.-install greasemonkey addon for firefox https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ New user script and put there 
 
 
 setTimeout(function(){window.location.reload();},10000);
