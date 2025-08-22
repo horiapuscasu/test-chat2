@@ -26,7 +26,7 @@ window.scrollTo({
 
 });
 
-enable and reload/ferfresh thhee tab
+enable and reload/ferfresh the tab
 
 
 
