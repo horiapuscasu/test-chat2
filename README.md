@@ -13,11 +13,17 @@ https://www.facebook.com/horia.puscasu.58/
 
 
 to refresh a facebook account to the first post in loop every 10 sec.-install greasemonkey addon for firefox https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ New user script and put there 
+
 setTimeout(function(){window.location.reload();},10000);
+
 window.scrollTo({
+ 
   top: 700,
+  
   left: 0,
+  
   behavior: "smooth",
+
 });
 
 enable and reload/ferfresh thhee tab
