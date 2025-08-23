@@ -12,7 +12,7 @@ Use notepad++ to edit everything because useful
 https://www.facebook.com/horia.puscasu.58/ 
 
 
-to refresh a facebook account to the first post in loop every 10 sec.-install greasemonkey addon for firefox https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ New user script and put there 
+to refresh a facebook account to the first post in loop every 10 sec.-install greasemonkey addon for firefox https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ New user script and put there,if accidental more scripts try to uninstall those scripts 
 
 setTimeout(function(){window.location.reload();},10000);
 
