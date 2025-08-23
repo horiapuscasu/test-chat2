@@ -163,6 +163,10 @@ process.on('uncaughtException', function (err)
 	const server = https.createServer(credentials, app);
 	
 	const io  = require('socket.io')(server,{
+		cors: {
+			origin: "*",
+			methods: ["GET", "POST"]
+		},
 		 handlePreflightRequest: (req, res) => {
 			const headers = {
 				"Access-Control-Allow-Headers": "Content-Type, Authorization",
